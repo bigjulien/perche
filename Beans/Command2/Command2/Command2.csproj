@@ -1,0 +1,41 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{678E64F5-6C13-4234-91C4-FD788228952F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Command2</RootNamespace>
+    <AssemblyName>Command2</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Import Include="Beans" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Command2.cs" />
+    <Reference Include="Beans">
+      <HintPath>..\..\..\..\..\..\Program Files %28x86%29\SharpDevelop\3.0\AddIns\WCompAddIn\Beans.dll</HintPath>
+    </Reference>
+    <Reference Include="Command2, Version=1.0.5862.28923, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="MPMS, Version=1.0.5855.30255, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="System" />
+  </ItemGroup>
+</Project>

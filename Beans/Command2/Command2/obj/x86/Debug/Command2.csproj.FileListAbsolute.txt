@@ -1,0 +1,6 @@
+C:\Users\Julien\Documents\SharpDevelop Projects\Command2\Command2\bin\Debug\Command2.dll
+C:\Users\Julien\Documents\SharpDevelop Projects\Command2\Command2\bin\Debug\Command2.pdb
+C:\Users\Julien\Documents\SharpDevelop Projects\Command2\Command2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Julien\Documents\SharpDevelop Projects\Command2\Command2\obj\x86\Debug\Command2.dll
+C:\Users\Julien\Documents\SharpDevelop Projects\Command2\Command2\obj\x86\Debug\Command2.pdb
+C:\Users\Julien\Documents\SharpDevelop Projects\Command2\Command2\bin\Debug\Beans.dll
